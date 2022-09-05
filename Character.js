@@ -36,10 +36,12 @@ class Character {
         const healthBar = this.getHealthBar()
         return `
         <div class="character-card">
-            <h4 class="name"> ${name} </h4>
-            <img class="avatar" src="${img}" />
-            <div class="health">health: <b> ${health} </b></div>
-            ${healthBar}
+            <div class="card-info">
+                <h4 class="name"> ${name} </h4>
+                <img class="avatar" src="${img}" />
+                <div class="health">health: <b> ${health} </b></div>
+                ${healthBar}
+            </div>
             <div class="dice-container">
                 ${this.diceArray}
             </div>
