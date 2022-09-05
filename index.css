@@ -34,13 +34,9 @@ main {
     } 
 }
 
-#hero {
-
-}
-
 .character-card {
     margin-top: .5rem;
-    max-width: 230px;
+    width: 230px;
     font-size: 1.6rem;
     display: flex;
     flex-direction: column;
@@ -62,12 +58,6 @@ main {
 .name {
     letter-spacing: 0.08em;
     margin: 20px 0px;
-}
-
-@media(min-width:550px){
-    .name {
-    /* font-size: 100%; */
-    }
 }
 
 .avatar {
@@ -144,12 +134,6 @@ main {
     flex: 0 0 50px;
 }
 
-@media(min-width:550px){
-.dice-container .dice, .dice-container .placeholder-dice{
-    
-}
-}
-
 button {
     font-family: 'MedievalSharp', cursive;
     background-color: #fcc02a;
@@ -171,7 +155,6 @@ button {
 button:focus { outline: 0 }
 
 .end-game{
-    margin-top: 25%;
     text-align: center;
 }
 

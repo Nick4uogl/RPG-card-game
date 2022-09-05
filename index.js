@@ -53,7 +53,7 @@ function endGame() {
 
     const endEmoji = wizard.health > 0 ? "🔮" : "☠️"
     setTimeout(() => {
-        document.body.innerHTML = `
+        document.querySelector('.wrapper').innerHTML = `
                 <div class="end-game">
                     <h2>Game Over</h2> 
                     <h3>${endMessage}</h3>
